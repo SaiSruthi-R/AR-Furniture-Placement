@@ -1,24 +1,23 @@
-AR Furniture Placement
+Project Overview
 
-Device Used : iPhone 15
-
-Unity Version : Unity 6
+This Unity-based augmented reality (AR) app allows users to visualize furniture in real-world spaces using their iOS devices. The application utilizes Unity’s AR Foundation to detect horizontal planes and place 3D furniture models within the user’s environment.
 
 Features Implemented
-	1.	Plane detection
-	2.	Furniture selection (clicking “Select” logs the selected object in the console)
+	•	Plane Detection: Identifies flat surfaces in the real world to place furniture.
+	•	Furniture Selection: Users can select furniture items from a catalog (selection is logged in the console).
 
-Features Missing / Not Implemented
-	1.	Moving, scaling, and rotation of furniture
-	2.	Android build
-	3.  Visual placement of selected furniture in AR (currently only logs in console)
+Missing / Not Implemented
+	•	Object Manipulation: Moving, scaling, and rotating furniture models are not yet implemented.
+	•	Android Build: Only an iOS build is available; Android support is not included.
+	•	Visual Feedback: Currently, selected furniture models do not appear in the AR view; only console logs are displayed.
 
-Issues Faced
-	1.	Prefab spawning and rendering issues in Editor prevented proper AR visualization.
-	2.	Limited time (2 days) to implement full functionality.
+Issues / Notes
+	•	The project was developed over a span of 2 days, resulting in a basic prototype.
+	•	Due to time constraints, several planned features were not implemented.
+	•	The iOS build is included in the repository; however, the Android build was not developed.
 
 How to Run
 	1.	Open the project in Unity.
-	2.	Build for iOS device.
-	3.	Use the app to detect planes and select furniture.
-	4.	Observe selection logging in the console.
+	2.	Build and run the project on an iOS device.
+	3.	Use the app to detect planes and select furniture items.
+	4.	Observe the console for selection logs.

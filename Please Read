@@ -1,0 +1,24 @@
+AR Furniture Placement
+
+Device Used : iPhone 15
+
+Unity Version : Unity 6
+
+Features Implemented
+	1.	Plane detection
+	2.	Furniture selection (clicking “Select” logs the selected object in the console)
+
+Features Missing / Not Implemented
+	1.	Moving, scaling, and rotation of furniture
+	2.	Android build
+	3.  Visual placement of selected furniture in AR (currently only logs in console)
+
+Issues Faced
+	1.	Prefab spawning and rendering issues in Editor prevented proper AR visualization.
+	2.	Limited time (2 days) to implement full functionality.
+
+How to Run
+	1.	Open the project in Unity.
+	2.	Build for iOS device.
+	3.	Use the app to detect planes and select furniture.
+	4.	Observe selection logging in the console.
